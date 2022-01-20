@@ -19,7 +19,7 @@ public class UserController {
       void createUser(@RequestBody User user) {
     	  System.out.println(user.getName());
       }
-      
+      //comments to check branch
       @DeleteMapping("/user")
       void deleteUser() {
     	  
